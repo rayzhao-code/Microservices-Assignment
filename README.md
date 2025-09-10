@@ -32,5 +32,3 @@ pip install requests
 
 ### Get a User
 ![](screenshots/ss6.png)
-
-
