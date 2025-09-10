@@ -20,12 +20,14 @@ pip install requests
 ## Running the Services
 ### Start the User Service
 ```bash
+# Terminal 1
 python user_service.py
 ```
 ![](screenshots/ss1.png)
 
 ### Start the Order Service
 ```bash
+# Terminal 2
 python order_service.py
 ```
 ![](screenshots/ss2.png)
