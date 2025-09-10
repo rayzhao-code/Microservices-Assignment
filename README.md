@@ -6,8 +6,13 @@ Two Flask services:
 
 ## Setup
 ```bash
+# Create a virtual environment
 python -m venv myenv
+
+# Activate the virtual environment
 source myenv/bin/activate      # Windows: myenv\bin\activate
+
+# Install Flask
 pip install flask
 pip install requests
 ```
