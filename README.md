@@ -30,5 +30,5 @@ pip install requests
 ### Create an Order
 ![](screenshots/ss5.png)
 
-### Get a User
+### Get an Order
 ![](screenshots/ss6.png)
