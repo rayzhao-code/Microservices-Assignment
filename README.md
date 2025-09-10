@@ -11,18 +11,26 @@ source myenv/bin/activate      # Windows: myenv\bin\activate
 pip install flask
 pip install requests
 ```
+
+## Running the Services
+### Start the User Service
+![](screenshots/ss1.png)
+
+### Start the Order Service
+![](screenshots/ss2.png)
+
 ## Example Requests
 
 ### Create a User
-
+![](screenshots/ss3.png)
 
 ### Get a User
-
+![](screenshots/ss4.png)
 
 ### Create an Order
-
+![](screenshots/ss5.png)
 
 ### Get a User
-
+![](screenshots/ss6.png)
 
 
