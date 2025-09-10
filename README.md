@@ -19,21 +19,39 @@ pip install requests
 
 ## Running the Services
 ### Start the User Service
+```bash
+python user_service.py
+```
 ![](screenshots/ss1.png)
 
 ### Start the Order Service
+```bash
+python order_service.py
+```
 ![](screenshots/ss2.png)
 
 ## Example Requests
 
 ### Create a User
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"name":"Ray", "email": "ray@example.com"}' http://localhost:5001/users
+```
 ![](screenshots/ss3.png)
 
 ### Get a User
+```bash
+curl http://localhost:5001/users/3
+```
 ![](screenshots/ss4.png)
 
 ### Create an Order
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"user_id":3, "product": "Tablet"}' http://localhost:5002/orders
+```
 ![](screenshots/ss5.png)
 
 ### Get an Order
+```bash
+curl http://localhost:5002/orders/3
+```
 ![](screenshots/ss6.png)
